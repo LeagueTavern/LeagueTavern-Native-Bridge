@@ -2,7 +2,7 @@
 
 ![https://github.com/LeagueTavern/LeagueTavern-Native-Bridge/actions](https://github.com/LeagueTavern/LeagueTavern-Native-Bridge/workflows/CI/badge.svg)
 
-> Native implementation for LeagueTavern with napi-rs
+> Native implementation for LeagueTavern with napi-rs, 
 > Macos and Windows supported.
 
 ## Test in local
