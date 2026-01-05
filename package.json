@@ -1,11 +1,11 @@
 {
   "name": "leaguetavern-native-bridge",
   "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "description": "Native implementation for LeagueTavern with napi-rs",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/napi-rs/package-template.git"
+    "url": "git+ssh://git@github.com/LeagueTavern/LeagueTavern-Native-Bridge.git"
   },
   "license": "MIT",
   "browser": "browser.js",
