@@ -1,5 +1,5 @@
 {
-  "name": "leaguetavern-native-bridge",
+  "name": "@coooookies/leaguetavern-native-bridge",
   "version": "1.0.0",
   "description": "Native implementation for LeagueTavern with napi-rs",
   "main": "index.js",
@@ -8,7 +8,6 @@
     "url": "git+ssh://git@github.com/LeagueTavern/LeagueTavern-Native-Bridge.git"
   },
   "license": "MIT",
-  "browser": "browser.js",
   "keywords": [
     "napi-rs",
     "NAPI",
@@ -19,8 +18,7 @@
   ],
   "files": [
     "index.d.ts",
-    "index.js",
-    "browser.js"
+    "index.js"
   ],
   "napi": {
     "binaryName": "leaguetavern-native-bridge",
@@ -56,6 +54,7 @@
     "@emnapi/core": "^1.5.0",
     "@emnapi/runtime": "^1.5.0",
     "@napi-rs/cli": "^3.2.0",
+    "@oxc-node/core": "^0.0.35",
     "@taplo/cli": "^0.7.0",
     "@tybys/wasm-util": "^0.10.0",
     "@types/node": "^25.0.3",
@@ -100,8 +99,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.12.0",
-  "dependencies": {
-    "@oxc-node/core": "^0.0.35"
-  }
+  "packageManager": "yarn@4.12.0"
 }
