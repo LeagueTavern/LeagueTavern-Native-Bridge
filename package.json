@@ -3,7 +3,10 @@
   "version": "1.0.1",
   "description": "Native implementation for LeagueTavern with napi-rs",
   "main": "index.js",
-  "repository": "git@github.com:LeagueTavern/LeagueTavern-Native-Bridge.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LeagueTavern/LeagueTavern-Native-Bridge.git"
+  },
   "license": "MIT",
   "keywords": [
     "napi-rs",
